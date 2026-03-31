@@ -1,0 +1,11 @@
+Just some notes on the libraries I used, what they do:
+
+OpenCV:
+* OpenCV (or cv2) was used to grey scale the image and then resize it. 
+*** This library is in the format BGR instead of RGB (which is standard now), MAKE SURE you don't
+
+image = cv2.imread("path",cv2.IMREAD_GRAYSCALE) loads image via path in grayscale.
+image_resized = cv2.resize(image, (dimension x, dimension y), 
+
+
+Notes: March 24, 2025
